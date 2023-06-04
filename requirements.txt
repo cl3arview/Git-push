@@ -1,0 +1,10 @@
+gradio
+cv2
+numpy
+os
+random
+basicsr
+basicsr
+gc
+torch.cuda
+django
