@@ -1,0 +1,61 @@
+html , body {
+	background: conic-gradient(at 125% 50%, #b78cf7, #ff7c94, #ffcf0d, #ff7c94, #6600ff);
+	background-size: 600% 600%;
+	animation: gradient 4s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.navbar, .footer , .box{
+	background-color: hsla(0, 0%, 13%, 0.5);
+  }
+  
+ 
+
+
+  .hero{
+	background-color: hsl(349, 100%, 74%, 0.1);
+  }
+  
+
+
+
+
+
+  input {
+	font-family: "Oswald", sans-serif;
+  }
+  .uploader {
+	cursor: pointer !important;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+  }
+  
+  .chooseFile {
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	padding-left: 200px;
+	margin-right: -200px;
+  }
+  
+  #thumbnail {
+	width: 25%;
+	margin-top: 10px;
+	cursor: pointer;
+	height: auto;
+  }
+  
